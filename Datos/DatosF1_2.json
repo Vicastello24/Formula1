@@ -1,0 +1,182 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Max Verstappen",
+        "Escuderia": "Red Bull Racing",
+        "Dorsal": 1,
+        "Victorias": 65,
+        "Podios": 140,
+        "PuntosMedios": 330.5
+    },
+    {
+        "ID": 2,
+        "Nombre": "Lewis Hamilton",
+        "Escuderia": "Mercedes",
+        "Dorsal": 44,
+        "Victorias": 103,
+        "Podios": 197,
+        "PuntosMedios": 347.5
+    },
+    {
+        "ID": 3,
+        "Nombre": "Fernando Alonso",
+        "Escuderia": "Aston Martin",
+        "Dorsal": 14,
+        "Victorias": 32,
+        "Podios": 106,
+        "PuntosMedios": 166.5
+    },
+    {
+        "ID": 4,
+        "Nombre": "Charles Leclerc",
+        "Escuderia": "Ferrari",
+        "Dorsal": 16,
+        "Victorias": 7,
+        "Podios": 38,
+        "PuntosMedios": 214.5
+    },
+    {
+        "ID": 5,
+        "Nombre": "Lando Norris",
+        "Escuderia": "McLaren",
+        "Dorsal": 4,
+        "Victorias": 9,
+        "Podios": 13,
+        "PuntosMedios": 122.0
+    },
+    {
+        "ID": 6,
+        "Nombre": "Oscar Piastri",
+        "Escuderia": "McLaren",
+        "Dorsal": 81,
+        "Victorias": 7,
+        "Podios": 34,
+        "PuntosMedios": 194.5
+    },
+    {
+        "ID": 7,
+        "Nombre": "George Russell",
+        "Escuderia": "Mercedes",
+        "Dorsal": 63,
+        "Victorias": 4,
+        "Podios": 27,
+        "PuntosMedios": 212.5
+    },
+    {
+        "ID": 8,
+        "Nombre": "Carlos Sainz",
+        "Escuderia": "Ferrari",
+        "Dorsal": 55,
+        "Victorias": 4,
+        "Podios": 30,
+        "PuntosMedios": 156.0
+    },
+    {
+        "ID": 9,
+        "Nombre": "Pierre Gasly",
+        "Escuderia": "Alpine",
+        "Dorsal": 10,
+        "Victorias": 1,
+        "Podios": 19,
+        "PuntosMedios": 21.0
+    },
+    {
+        "ID": 10,
+        "Nombre": "Esteban Ocon",
+        "Escuderia": "Alpine",
+        "Dorsal": 31,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 11.5
+    },
+    {
+        "ID": 11,
+        "Nombre": "Yuki Tsunoda",
+        "Escuderia": "Red Bull Racing",
+        "Dorsal": 22,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 15.0
+    },
+    {
+        "ID": 12,
+        "Nombre": "Alexander Albon",
+        "Escuderia": "Williams",
+        "Dorsal": 23,
+        "Victorias": 0,
+        "Podios": 1,
+        "PuntosMedios": 7.0
+    },
+    {
+        "ID": 13,
+        "Nombre": "Liam Lawson",
+        "Escuderia": "Racing Bulls",
+        "Dorsal": 30,
+        "Victorias": 0,
+        "Podios": 1,
+        "PuntosMedios": 0.0
+    },
+    {
+        "ID": 14,
+        "Nombre": "Isack Hadjar",
+        "Escuderia": "Racing Bulls",
+        "Dorsal": 6,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    },
+    {
+        "ID": 15,
+        "Nombre": "Nico Hülkenberg",
+        "Escuderia": "Kick Sauber",
+        "Dorsal": 27,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 20.5
+    },
+    {
+        "ID": 16,
+        "Nombre": "Gabriel Bortoleto",
+        "Escuderia": "Kick Sauber",
+        "Dorsal": 5,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    },
+    {
+        "ID": 17,
+        "Nombre": "Lance Stroll",
+        "Escuderia": "Aston Martin",
+        "Dorsal": 18,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 12.0
+    },
+    {
+        "ID": 18,
+        "Nombre": "Oliver Bearman",
+        "Escuderia": "Haas",
+        "Dorsal": 87,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    },
+    {
+        "ID": 19,
+        "Nombre": "Franco Colapinto",
+        "Escuderia": "Alpine",
+        "Dorsal": 21,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    },
+    {
+        "ID": 20,
+        "Nombre": "Kimi Antonelli",
+        "Escuderia": "Mercedes",
+        "Dorsal": 12,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    }
+]

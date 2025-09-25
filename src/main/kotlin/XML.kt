@@ -4,6 +4,7 @@ import java.io.File
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 /*Representa la estructura de una única planta. La propiedad 'id_planta' será la
@@ -24,7 +25,7 @@ fun main() {
     val datos: List<Piloto>
     datos = leerDatosInicialesXML(entradaXML)
     for (dato in datos) {
-        println(" - ID: ${dato.ID}, Nombre: ${dato.Nombre}, Escudería: ${dato.Escudería}, Dorsal: ${dato.Dorsal}, Victorias: ${dato.Victorias}, Podios: ${dato.Podios}, Puntos Medios por Temporada: ${dato.PuntosMedios}")
+        println(" - ID: ${dato.ID}, Nombre: ${dato.Nombre}, Escuderia: ${dato.Escuderia}, Dorsal: ${dato.Dorsal}, Victorias: ${dato.Victorias}, Podios: ${dato.Podios}, Puntos Medios por Temporada: ${dato.PuntosMedios}")
     }
     escribirDatosXML(salidaXML, datos)
 }

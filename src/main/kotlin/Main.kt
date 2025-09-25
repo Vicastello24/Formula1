@@ -1,28 +1,29 @@
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 import java.nio.file.Files
 import java.nio.file.Path
 import java.io.File
 // Librería específica de Kotlin para leer y escribir ficheros CSV.
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
+import kotlinx.serialization.Serializable
+
 //Usamos una 'data class' para representar la estructura de una planta.
-data class Piloto
-    (@JacksonXmlProperty(localName = "ID")
+@Serializable
+data class Piloto(
+    @JacksonXmlProperty(localName = "ID")
      val ID: Int,
-     @JacksonXmlProperty(localName = "Nombre")
+    @JacksonXmlProperty(localName = "Nombre")
      val Nombre: String,
-     @JacksonXmlProperty(localName = "Escuderia")
-     val Escudería: String,
-     @JacksonXmlProperty(localName = "Dorsal")
-     val Dorsal: Int,
-     @JacksonXmlProperty(localName = "Victorias")
+    @JacksonXmlProperty(localName = "Escuderia")
+     val Escuderia: String,
+    @JacksonXmlProperty(localName = "Dorsal")
+     val Dorsal: Int?,
+    @JacksonXmlProperty(localName = "Victorias")
      val Victorias: Int,
-     @JacksonXmlProperty(localName = "Podios")
+    @JacksonXmlProperty(localName = "Podios")
      val Podios: Int,
-     @JacksonXmlProperty(localName = "PuntosMedios")
-     val PuntosMedios: Double)
-@JacksonXmlProperty(localName = "pilotos")
+    @JacksonXmlProperty(localName = "MediaPuntosTemporada")
+     val PuntosMedios: Double?)
 //nombre del elemento raíz
 fun main() {
     val entradaCSV = Path.of("Datos/DatosF1.csv")
@@ -31,7 +32,7 @@ fun main() {
     datos = leerDatosInicialesCSV(entradaCSV)
     16
     for (dato in datos) {
-        println(" - ID: ${dato.ID}, Nombre: ${dato.Nombre}, Escudería: ${dato.Escudería}, Dorsal: ${dato.Dorsal}, Victorias: ${dato.Victorias}, Podios: ${dato.Podios}, Puntos Medios por Temporada: ${dato.PuntosMedios}")
+        println(" - ID: ${dato.ID}, Nombre: ${dato.Nombre}, Escuderia: ${dato.Escuderia}, Dorsal: ${dato.Dorsal}, Victorias: ${dato.Victorias}, Podios: ${dato.Podios}, Puntos Medios por Temporada: ${dato.PuntosMedios}")
     }
     escribirDatosCSV(salidaCSV, datos)
 }
@@ -88,7 +89,7 @@ fun escribirDatosCSV(ruta: Path, pilotos: List<Piloto>){
             pilotos.map { piloto ->
                 listOf(piloto.ID.toString(),
                     piloto.Nombre,
-                    piloto.Escudería,
+                    piloto.Escuderia,
                     piloto.Dorsal.toString(),
                     piloto.Victorias.toString(),
                     piloto.Podios.toString(),

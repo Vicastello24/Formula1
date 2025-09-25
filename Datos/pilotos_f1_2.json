@@ -1,0 +1,182 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Max Verstappen",
+        "Escuderia": "Red Bull Racing",
+        "Dorsal": 1,
+        "Victorias": 61,
+        "Podios": 103,
+        "PuntosMedios": 315.5
+    },
+    {
+        "ID": 2,
+        "Nombre": "Sergio Perez",
+        "Escuderia": "Red Bull Racing",
+        "Dorsal": 11,
+        "Victorias": 6,
+        "Podios": 39,
+        "PuntosMedios": 132.2
+    },
+    {
+        "ID": 3,
+        "Nombre": "Lewis Hamilton",
+        "Escuderia": "Mercedes",
+        "Dorsal": 44,
+        "Victorias": 103,
+        "Podios": 197,
+        "PuntosMedios": 327.4
+    },
+    {
+        "ID": 4,
+        "Nombre": "George Russell",
+        "Escuderia": "Mercedes",
+        "Dorsal": 63,
+        "Victorias": 1,
+        "Podios": 12,
+        "PuntosMedios": 118.6
+    },
+    {
+        "ID": 5,
+        "Nombre": "Charles Leclerc",
+        "Escuderia": "Ferrari",
+        "Dorsal": 16,
+        "Victorias": 5,
+        "Podios": 35,
+        "PuntosMedios": 152.3
+    },
+    {
+        "ID": 6,
+        "Nombre": "Carlos Sainz",
+        "Escuderia": "Ferrari",
+        "Dorsal": 55,
+        "Victorias": 3,
+        "Podios": 21,
+        "PuntosMedios": 120.7
+    },
+    {
+        "ID": 7,
+        "Nombre": "Lando Norris",
+        "Escuderia": "McLaren",
+        "Dorsal": 4,
+        "Victorias": 0,
+        "Podios": 16,
+        "PuntosMedios": 115.2
+    },
+    {
+        "ID": 8,
+        "Nombre": "Oscar Piastri",
+        "Escuderia": "McLaren",
+        "Dorsal": 81,
+        "Victorias": 0,
+        "Podios": 2,
+        "PuntosMedios": 97.0
+    },
+    {
+        "ID": 9,
+        "Nombre": "Fernando Alonso",
+        "Escuderia": "Aston Martin",
+        "Dorsal": 14,
+        "Victorias": 32,
+        "Podios": 106,
+        "PuntosMedios": 145.6
+    },
+    {
+        "ID": 10,
+        "Nombre": "Lance Stroll",
+        "Escuderia": "Aston Martin",
+        "Dorsal": 18,
+        "Victorias": 0,
+        "Podios": 3,
+        "PuntosMedios": 58.4
+    },
+    {
+        "ID": 11,
+        "Nombre": "Esteban Ocon",
+        "Escuderia": "Alpine",
+        "Dorsal": 31,
+        "Victorias": 1,
+        "Podios": 3,
+        "PuntosMedios": 72.5
+    },
+    {
+        "ID": 12,
+        "Nombre": "Pierre Gasly",
+        "Escuderia": "Alpine",
+        "Dorsal": 10,
+        "Victorias": 1,
+        "Podios": 4,
+        "PuntosMedios": 76.3
+    },
+    {
+        "ID": 13,
+        "Nombre": "Valtteri Bottas",
+        "Escuderia": "Sauber",
+        "Dorsal": 77,
+        "Victorias": 10,
+        "Podios": 67,
+        "PuntosMedios": 167.8
+    },
+    {
+        "ID": 14,
+        "Nombre": "Guanyu Zhou",
+        "Escuderia": "Sauber",
+        "Dorsal": 24,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 48.6
+    },
+    {
+        "ID": 15,
+        "Nombre": "Yuki Tsunoda",
+        "Escuderia": "RB",
+        "Dorsal": 22,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 52.4
+    },
+    {
+        "ID": 16,
+        "Nombre": "Daniel Ricciardo",
+        "Escuderia": "RB",
+        "Dorsal": 3,
+        "Victorias": 8,
+        "Podios": 32,
+        "PuntosMedios": 142.1
+    },
+    {
+        "ID": 17,
+        "Nombre": "Kevin Magnussen",
+        "Escuderia": "Haas",
+        "Dorsal": 20,
+        "Victorias": 0,
+        "Podios": 1,
+        "PuntosMedios": 60.8
+    },
+    {
+        "ID": 18,
+        "Nombre": "Nico Hulkenberg",
+        "Escuderia": "Haas",
+        "Dorsal": 27,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 67.2
+    },
+    {
+        "ID": 19,
+        "Nombre": "Alexander Albon",
+        "Escuderia": "Williams",
+        "Dorsal": 23,
+        "Victorias": 0,
+        "Podios": 2,
+        "PuntosMedios": 64.9
+    },
+    {
+        "ID": 20,
+        "Nombre": "Logan Sargeant",
+        "Escuderia": "Williams",
+        "Dorsal": 2,
+        "Victorias": 0,
+        "Podios": 0,
+        "PuntosMedios": 0.0
+    }
+]
