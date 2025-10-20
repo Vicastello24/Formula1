@@ -9,7 +9,7 @@ import com.fasterxml.jackson.module.kotlin.readValue
 
 
 
-fun main() {
+fun JsonAJson() {
     val entradaJSON = Path.of("Datos/pilotos_f1.json")
     val salidaJSON = Path.of("Datos/pilotos_f1_2.json")
     val datos: List<Piloto>

@@ -19,7 +19,7 @@ data class PilotosWrapper(
 )
 
 
-fun main() {
+fun XmlAJson() {
     try {
         val entradaXML = Path.of("Datos/pilotos_f1.xml")
         val salidaJSON = Path.of("Datos/DatosF1_2.json")

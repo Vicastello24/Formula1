@@ -19,7 +19,7 @@ data class Pilotos(
 )
 
 
-fun main() {
+fun XML_A_XML() {
     val entradaXML = Path.of("Datos/pilotos_f1.xml")
     val salidaXML = Path.of("Datos/DatosF1_2.xml")
     val datos: List<Piloto>

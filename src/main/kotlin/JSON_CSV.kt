@@ -12,7 +12,7 @@ import java.io.File
 
 
 
-fun main() {
+fun JsonACsv() {
     val entradaJSON = Path.of("Datos/pilotos_f1.json")
     val salidaJSON = Path.of("Datos/pilotos_f1_deJson.csv")
     val datos: List<Piloto>
